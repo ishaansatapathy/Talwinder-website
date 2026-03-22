@@ -610,6 +610,8 @@ export default function App() {
             a CSS property through the Talwinder engine — no build step, no config files, just add classes.
           </p>
 
+          <CodeBlock lang="bash" code={`npm install talwinder-css`} />
+
           <div className="callout note" style={{ marginTop: 24 }}>
             <div className="callout-title">Note</div>
             All <code>tw-</code> utilities are processed at runtime by the Talwinder engine via
